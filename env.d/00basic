@@ -1,0 +1,11 @@
+# /Users/tianyi/Gentoo/etc/env.d/00basic
+
+# in prefix we have sbin variants in user path!
+PATH="/Users/tianyi/Gentoo/opt/bin:/Users/tianyi/Gentoo/usr/sbin:/Users/tianyi/Gentoo/sbin"
+ROOTPATH="/Users/tianyi/Gentoo/opt/bin"
+LDPATH="/Users/tianyi/Gentoo/usr/local/lib"
+MANPATH="/Users/tianyi/Gentoo/usr/share/man"
+INFOPATH="/Users/tianyi/Gentoo/usr/share/info"
+CVS_RSH="ssh"
+PAGER="/Users/tianyi/Gentoo/usr/bin/less"
+LESSOPEN="|lesspipe.sh %s"

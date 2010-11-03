@@ -1,0 +1,8 @@
+#!/Users/tianyi/Gentoo/bin/sh
+#
+# This is not a mistake.  This shell script (/etc/rmt) has been provided
+# for compatibility with other Unix-like systems, some of which have
+# utilities that expect to find (and execute) rmt in the /etc directory
+# on remote systems.
+#
+exec /Users/tianyi/Gentoo/usr/sbin/rmt "$@"
